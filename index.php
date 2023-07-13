@@ -22,6 +22,8 @@
             echo $harryPotter1->getMovieInfo();
             echo $spidermanNoWayHome->getMovieInfo();
             echo $unaNotteDaLeoni->getMovieInfo();
+            echo $laLeggendaDiAlJohnEJack->getMovieInfo();
+            echo $theButterflyEffect->getMovieInfo();
         ?>
     </main>
 </body>
