@@ -21,8 +21,8 @@
     </header>
     <main>
         <?php
-            echo $harry_potter_1->getMovieInfo();
-            echo $spiderman_no_way_home->getMovieInfo();
+            echo $harryPotter1->getMovieInfo();
+            echo $spidermanNoWayHome->getMovieInfo();
         ?>
     </main>
 </body>
