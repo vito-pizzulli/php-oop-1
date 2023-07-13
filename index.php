@@ -5,8 +5,18 @@
         public $description;
         public $rating;
         public $release_date;
-        public $duration;
+        public $length_in_minutes;
         public $language;
+
+        function __construct(String $title, String $original_title, String $description, String $rating, String $release_date, Int $length_in_minutes, String $language) {
+            $this->title = $title;
+            $this->original_title = $original_title;
+            $this->description = $description;
+            $this->rating = $rating;
+            $this->release_date = $release_date;
+            $this->length_in_minutes = $length_in_minutes;
+            $this->language = $language;
+        }
     }
 ?>
 
