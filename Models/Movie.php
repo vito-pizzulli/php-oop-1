@@ -21,7 +21,7 @@
         }
 
         public function getMovieInfo(){
-            echo '<ul><li> Titolo: ' . $this->title . '</li>';
+            echo '<ul><li><h2> Titolo: ' . $this->title . '</h2></li>';
             echo '<li> Titolo originale: ' . $this->original_title . '</li>';
             echo '<li> Trama: ' . $this->plot . '</li>';
             echo '<li> Genere/i: ' . $this->genre->genre_1 . " " . $this->genre->genre_2 . " " . $this->genre->genre_3 . '</li>';

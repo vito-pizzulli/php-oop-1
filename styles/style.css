@@ -1,0 +1,44 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background.gif); /* Source: https://tofupixel.tumblr.com/post/692129633813037057/commissioned-work-for-a-streamers-starting-soon */
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 10vh;
+    vertical-align: middle;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+ul {
+    list-style-type: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 3rem auto;
+    width: 75%;
+}
+
+li {
+    margin: .5rem 0;
+}
