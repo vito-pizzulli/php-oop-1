@@ -16,13 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>PHP8 OOP 1</h1>
-    </header>
     <main>
+        <h1>PHP8 OOP 1 - Movies</h1>
         <?php
             echo $harryPotter1->getMovieInfo();
             echo $spidermanNoWayHome->getMovieInfo();
+            echo $unaNotteDaLeoni->getMovieInfo();
         ?>
     </main>
 </body>

@@ -6,19 +6,24 @@
 }
 
 body {
-    background-image: url(../img/background.gif); /* Source: https://tofupixel.tumblr.com/post/692129633813037057/commissioned-work-for-a-streamers-starting-soon */
+    background-image: url(../img/background.jpg);
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: white;
-}
-
-header {
-    height: 10vh;
+    height: 100vh;
 }
 
 main {
-    height: 90vh;
     overflow-y: scroll;
+    background-image: url(../img/screen.gif); /* Source: https://tofupixel.tumblr.com/post/692129633813037057/commissioned-work-for-a-streamers-starting-soon */
+    background-size: cover;
+    background-position: bottom;
+    width: 75%;
+    height: 55%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h1 {
@@ -35,8 +40,7 @@ ul {
     border-radius: 20px;
     padding: 1rem;
     background-color: rgba(0, 0, 0, .5);
-    margin: 3rem auto;
-    width: 75%;
+    margin: 3rem 2rem;
 }
 
 li {
