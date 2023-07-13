@@ -17,7 +17,7 @@
 </head>
 <body>
     <main>
-        <h1>PHP8 OOP 1 - Movies</h1>
+        <h1>PHP8 OOP 1</h1>
         <?php
             echo $harryPotter1->getMovieInfo();
             echo $spidermanNoWayHome->getMovieInfo();
